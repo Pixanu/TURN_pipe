@@ -35,8 +35,10 @@ public class GameManager : MonoBehaviour
         if(correctedPipes == totalPipes)
         {
             Debug.Log("Victory!");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-            
+            SceneManager.LoadScene("LevelSelector");
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
+
         }
 
 

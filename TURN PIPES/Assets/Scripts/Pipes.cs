@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Pipes : MonoBehaviour
 {
-    float[] rotations = { 0, 90, 180, 270 };
+    float[] rotations = { 0, 90 };
 
     public float[] correctRotation;
 
