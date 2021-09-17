@@ -11,7 +11,7 @@ public class Colcheck : MonoBehaviour
         {
             Debug.Log("HIT");
             Destroy(other.gameObject);
-            SceneManager.LoadScene("Level_2", LoadSceneMode.Single);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex, LoadSceneMode.Single);
         }
         
     }
